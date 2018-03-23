@@ -17,6 +17,8 @@ import { HeroService } from './hero.service';
 import { MessageService } from './message.service';
 import { MessagesComponent } from './messages/messages.component';
 
+console.log('Step 2: In module, call a component');
+
 @NgModule({
   imports: [
     BrowserModule,
